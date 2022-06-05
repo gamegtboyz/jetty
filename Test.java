@@ -1,3 +1,17 @@
+// this class reads the Sring or list of Strings(seperated by whitespace) then return that input Strings in reversed order. For examples;
+/*
+INPUT:
+one
+two three
+four
+
+OUTPUT:
+four
+three
+two
+one
+*/
+
 import java.util.Scanner;
 import java.util.Arrays;
 

@@ -1,7 +1,16 @@
+/*
+This class is to read n number of integers from System.in, seperated by whitespaces, converted it from String to Array of Strings, convert them onto Array of integers, then print it in reversed order.
+For examples;
+INPUT:
+1 2 3 4 5
+OUTPUT:
+5 4 3 2 1
+*/
+
 import java.util.Scanner;
 import java.util.Arrays;
 
-class Test {
+class ReversedStringtoInt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter integers, seperated by whitespace: ");

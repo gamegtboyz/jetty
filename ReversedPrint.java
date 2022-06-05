@@ -15,7 +15,7 @@ one
 import java.util.Scanner;
 import java.util.Arrays;
 
-class Test {
+class ReversedPrint {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = 1;

@@ -25,7 +25,7 @@ class ReversedPrint {
         while (n <= guest.length) {
             System.out.print("Please enter guest name: ");
             String a_string = scanner.nextLine();
-            String[] a_array = a_string.split(" "); // build the string array using whilespace to split each elements.
+            String[] a_array = a_string.split(" "); // build the string array using whitespace to split each elements.
             for (int i = 0; i < a_array.length; i++) {
                 guest[n-1] = a_array[i];
                 n++;
